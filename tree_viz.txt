@@ -1,7 +1,14 @@
 .
 |-- Dockerfile
+|-- app
+|   |-- app
+|   |   |-- __init__.py
+|   |   |-- settings.py
+|   |   |-- urls.py
+|   |   `-- wsgi.py
+|   `-- manage.py
 |-- docker-compose.yml
 |-- requirements.txt
 `-- tree_viz.txt
 
-0 directories, 4 files
+2 directories, 9 files
