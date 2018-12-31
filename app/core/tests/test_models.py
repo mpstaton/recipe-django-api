@@ -51,4 +51,4 @@ class ModelTests(TestCase):
             name='Vegan'
         )
 
-    self.assertEqual(str(tag), tag.name)
+        self.assertEqual(str(tag), tag.name)
